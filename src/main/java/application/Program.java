@@ -18,7 +18,7 @@ public class Program {
 		em.remove(p);
 		em.getTransaction().commit();
 		
-		System.out.println("Finish!");
+		System.out.println("Finish!!");
 		em.close();
 		emf.close();
 	}
